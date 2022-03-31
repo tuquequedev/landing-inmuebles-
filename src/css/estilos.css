@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500&display=swap');
+
+
+
+/* Variables de Diseño */
+
+:root {
+    /* Colores */ 
+
+        /* Primarios */ 
+    --mainBG: hsl(249, 68, 29);
+    --colorBG: hsl(32, 100, 50);
+    
+        /* Secundarios */ 
+    --textBG: hsl(233, 95, 84);
+    --cornflowerblue: hsl(230, 97, 73);
+    --cultured: hsl(228, 22, 95);
+
+    /* Peso de Fuente */
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+
+    /* Tamaño de fuente */
+    --fontsize: 1.2rem; 
+
+
+    /* Fuente */
+    --font: 'Outfit';
+
+}
+
+html {
+    /* font-size para que 10px = 1rem */
+    font-size: 62,5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 2;
+    padding: 2rem;
+    font-family: var(--font); 
+    color: var(--mainBG);
+    background-color: var(--colorBG); 
+}
+
+/** Utilidades de la Pagina **/
+.site-header.inicio{
+    background-image: url(./imagenes/casadelago.jpg);
+    background-position: center center; 
+    background-size: cover; 
+    height: 100vh;
+    min-height: 600px;
+}
