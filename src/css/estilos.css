@@ -47,7 +47,7 @@ body {
 
 /** Utilidades de la Pagina **/
 .site-header.inicio{
-    background-image: url(./imagenes/casadelago.jpg);
+    background-image: url(../imagenes/casadelago.jpg);
     background-position: center center; 
     background-size: cover; 
     height: 100vh;

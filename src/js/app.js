@@ -1,1 +1,1 @@
-document.addEventListener
+console.log("js")
