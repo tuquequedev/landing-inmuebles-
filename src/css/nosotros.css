@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-
-
 *{
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
 }
-/* Estilos David */
+
+/* Estilos Nosotros David */
 
 /* Variables de Diseño */
 
@@ -47,22 +45,12 @@ body {
     font-size: 16px;
     line-height: 2;
     font-family: var(--font); 
-    color: var(--mainBG);
-    background-color: var(--colorBG); 
-    background-image: url(../../imagenes/casadelago.jpg);
+    background-image: url(/imagenes/propiedad.jpg);
     background-position: center; 
     background-size: cover;
 }
 
-/* Utilidades de la Pagina */
-header{
-    
-
-    padding-bottom: 30rem; 
-}
-
-/* Header */
-
+/* header de Nosotros */
 
 /*Contenedor de icono titulo y menu*/
 .contenedor{
@@ -80,6 +68,15 @@ header{
 .logo__img{
     width: 10%;
     height: auto;
+}
+
+/* Titulo de la pagina */
+.logo__titulo{
+    font-size: 5rem;
+    width: 75%;
+    font-family: 'Inter';
+    font-style: "normal";
+    color: #022B3A;
 }
 
 /* Titulo de la pagina */
@@ -122,36 +119,7 @@ line-height: 39px;
     background-color: aliceblue;
 }
 
-/* Slogan */
-.slogan {
-    
-padding: 3rem;
-width: 100%;
-max-width: 616px;
-text-align: center;
-font-size: 2rem;
-
-
-color: #27FD04;
-background-color:  #022B3A;
-border-radius: 0px 50px;
-
-}
-
-.subtitulo {
-    padding-top: 30rem;
-}
-
-/* Pie de Pagina */
-
-footer{
-    font-size: 1.5rem;
+.contenido{
     padding: 1rem;
-    text-align: center;
-    
-    font-family: 'Inter';
-    font-size: 1.5rem;
-    color: white
+    margin-bottom: 40px;
 }
-
-
