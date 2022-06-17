@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
@@ -41,6 +44,7 @@ html {
     box-sizing: border-box;
 }
 
+/* cuerpo */
 body {
     font-size: 16px;
     line-height: 2;
@@ -58,7 +62,7 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    padding: 0.5em;
+    padding: 1em;
     background-color: rgba(255, 134, 0, 0.8);
 
     border-radius: 100px;
@@ -72,29 +76,25 @@ body {
 
 /* Titulo de la pagina */
 .logo__titulo{
-    font-size: 5rem;
-    width: 75%;
+    font-size: 3.5rem;
+    width: 60%;
+    height: 0 auto;
+    margin: 0 auto;
     font-family: 'Inter';
     font-style: "normal";
     color: #022B3A;
+    
 }
 
-/* Titulo de la pagina */
-.logo__titulo{
-    font-size: 5rem;
-    width: 75%;
-    font-family: 'Inter';
-    font-style: "normal";
-    color: #022B3A;
-}
 
+/* menu */
 nav {
-width: 90%;
+width: 80%;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 32px;
-line-height: 39px;
+line-height: 50px;
 }
 
 /*menu*/
@@ -104,22 +104,32 @@ line-height: 39px;
     
 }
 
+/* opciones de navegacion */
 .nav__opcion{
     padding: .75em;
-    
-    
-
     background-color: orange;
-    color: #022B3A;
-
+    color: #F1F2F6;
     border-radius: 50px;
 }
 
+/* Hover del navbar */
 .nav__opcion:hover{
-    background-color: aliceblue;
+    background-color: #27187E;
+    transition: 1.5s;
 }
 
+/* texto de Nosotros */
 .contenido{
-    padding: 1rem;
+    font-family: 'Inter';
+    font-size: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 50px;
+    padding: 2rem;
     margin-bottom: 40px;
+    background: rgba(117,139,250, .75);
+    color: #F1F2F6;
 }
+
+
+

@@ -70,7 +70,7 @@ header{
     justify-content: space-between;
     align-items: center;
 
-    padding: 0.5em;
+    padding: 1em;
     background-color: rgba(255, 134, 0, 0.8);
 
     border-radius: 100px;
@@ -84,15 +84,17 @@ header{
 
 /* Titulo de la pagina */
 .logo__titulo{
-    font-size: 5rem;
-    width: 75%;
+    font-size: 3.5rem;
+    height: 0 auto;
+    margin: 0 auto;
+    width: 60%;
     font-family: 'Inter';
     font-style: "normal";
     color: #022B3A;
 }
 
 nav {
-width: 90%;
+width: 80%;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -107,43 +109,40 @@ line-height: 39px;
     
 }
 
+/* opciones de navegacion */
 .nav__opcion{
     padding: .75em;
-    
-    
-
     background-color: orange;
-    color: #022B3A;
-
+    color: #F1F2F6;
     border-radius: 50px;
 }
 
+/* Hover del navbar */
 .nav__opcion:hover{
-    background-color: aliceblue;
+    background-color: #27187E;
+    transition: 1.5s;
 }
 
 /* Slogan */
 .slogan {
-    
 padding: 3rem;
 width: 100%;
 max-width: 616px;
 text-align: center;
 font-size: 2rem;
-
-
+font-family: 'Inter';
 color: #27FD04;
-background-color:  #022B3A;
+background-color:  rgba(2,43,58, .85);
 border-radius: 0px 50px;
 
 }
 
+/* subtitulo*/
 .subtitulo {
     padding-top: 30rem;
 }
 
 /* Pie de Pagina */
-
 footer{
     font-size: 1.5rem;
     padding: 1rem;
