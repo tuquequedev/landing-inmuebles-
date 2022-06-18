@@ -49,7 +49,7 @@ body {
     font-family: var(--font); 
     color: var(--mainBG);
     background-color: var(--colorBG); 
-    background-image: url(../../imagenes/casadelago.jpg);
+    background-image: url(../../imagenes/residencias-lujosas.jpg);
     background-position: center; 
     background-size: cover;
 }
@@ -131,8 +131,8 @@ max-width: 616px;
 text-align: center;
 font-size: 2rem;
 font-family: 'Inter';
-color: #27FD04;
-background-color:  rgba(2,43,58, .85);
+color: #022B3A;
+background-color:  rgba(174, 184, 254, .85);
 border-radius: 0px 50px;
 
 }
@@ -150,7 +150,8 @@ footer{
     
     font-family: 'Inter';
     font-size: 1.5rem;
-    color: white
+    color: #AEB8FE;
+    background-color: #27187E;
 }
 
 
