@@ -49,7 +49,7 @@ body {
     font-family: var(--font); 
     color: var(--mainBG);
     background-color: var(--colorBG); 
-    background-image: url(../../imagenes/residencias-lujosas.jpg);
+    background-image: url(../../imagenes/residencias-con-piscina.png);
     background-position: center; 
     background-size: cover;
 }
@@ -122,36 +122,3 @@ line-height: 39px;
     background-color: #27187E;
     transition: 1.5s;
 }
-
-/* Slogan */
-.slogan {
-padding: 3rem;
-width: 100%;
-max-width: 616px;
-text-align: center;
-font-size: 2rem;
-font-family: 'Inter';
-color: #022B3A;
-background-color:  rgba(174, 184, 254, .85);
-border-radius: 0px 50px;
-
-}
-
-/* subtitulo*/
-.subtitulo {
-    padding-top: 30rem;
-}
-
-/* Pie de Pagina */
-footer{
-    font-size: 1.5rem;
-    padding: 1rem;
-    text-align: center;
-    
-    font-family: 'Inter';
-    font-size: 1.5rem;
-    color: #AEB8FE;
-    background-color: #27187E;
-}
-
-

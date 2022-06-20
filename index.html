@@ -4,69 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inmobiliaria</title>
-
+    <title>Bienes Inmuebles</title>
+    <link rel="shortcut icon" href="./imagenes/house-solid.svg" type="image/x-icon">
     <!-- ESTILOS  -->
     <link rel="stylesheet" href="./src/css/estilos.css">
 </head>
 <body>
-    <header class="site-header inicio">
+    <!-- LEER SOBRE SPA (single page application) esto para entender como estructurar una pagina en un solo documento -->
+    <!-- al igual que buscar que es una lading page y entender su estructura asi como porque no esta bien dividirla en secciones si los demás documentos son como si estuvieran en una pagina -->
+    <!-- TE DEJARE UN EJEMPLO A BAJO DE LAS SECCIONES Y TE RECOMIENDO ESTOS VIDEO  -->
+    <!-- https://www.youtube.com/watch?v=oj1cwYKKqp8 -->
+    <!-- https://evntossv.neocities.org/maquetacion.html -->
+    <!-- https://medium.com/@worldtechmakers/tips-para-maquetar-una-página-web-bc6b6788be1 -->
+    <!-- https://www.laurachuburu.com.ar/tutoriales/enlaces-html.php -->
+
+    <header><!--Empieza el encabezado-->
+        <!--Contenedor de logo, titulo y menu -->
         <div class="contenedor">
-
-        </div><!--Finaliza el contenedor -->
-        <nav>
-            <a href="">Nosotros</a>
-            <a href="">Propiedades</a>
-            <a href="">Contactanos</a>
-        </nav>
-        <h1>Venta de Propiedades Exclusivas</h1>
+                <img src="imagenes/insurance.png" alt="" class="logo__img"> <!--logo-->
+                <h2 class="logo__titulo">Bienes Inmuebles</h2> <!--titulo-->
+            <nav> <!--Menu-->
+                <ul class="nav">
+                    <li><a href="index.html" class="nav__opcion">Inicio</a></li>
+                    <!-- esto es el ejemplo que te digo también investigas las propiedades css para que cuando vaya a esa sección sea lo mas suave posible-->
+                    <!-- <li><a href="#Nosotros" class="nav__opcion">Nosotros</a></li> -->
+                    <li><a href="nosotros.html" class="nav__opcion">Nosotros</a></li>
+                    <li><a href="propiedades.html" class="nav__opcion">Propiedades</a></li>
+                    <li><a href="contactanos.html" class="nav__opcion">Contacto</a></li>
+                </ul>
+            </nav><!--fin de menu-->
+        </div><!--fin de contenedor-->
+        <div class="subtitulo">
+        <h2 class="slogan">¡TE DAMOS LAS LLAVES AL PARAÍSO!</h2>
+        </div>
     </header><!---Finaliza el encabezado-->
-    
-
-<section>
-        <h2>Nosotros</h2>
-        <h3>Seguridad</h3>
-        <p>bla bla bla bla bla bla</p>
-        <h3>Los mejores precios</h3>
-        <p>bla bla bla bla bla bla</p>
-        <h3>Puntualidad</h3>
-        <p>bla bla bla bla bla bla bla bla</p>
-</section><!--finaliza la seccion Nosotros-->
-
-<section>
-    <h2>Casas y Apartamentos en Venta</h2>
-    <h3>Quinta Valle del Este</h3>
-    <p>Esta hermosa Quinta tiene espectaculares vistas en San Antonio de los Altos, ubicada en una urbanización cerrada, cuenta con tres habitaciones dos baños y 150 metros cuadrados.</p>
-    <p>Precio: $50.000</p>
-    <a href="#">Ver propiedad</a>
-    <h3>Residencias Calipso</h3>
-    <p>Se encuentra ubicada en la avenida San Jorge en Chirimena, cuenta con cuatro habitaciones, dos baños y 210 metros cuadrados</p>
-    <p>Precio: $120.000</p>
-    <a href="#">Ver propiedad</a>
-
-    <a href="#">Ver todas las propiedades</a>
-</section><!--Finaliza seleccion de casas y apartamentos-->
-
-<section>
-<h2>¡Te damos las llaves al paraiso!</h2>
-<p>Llena el formulario para contactarnos</p>
-<a href="#">Contactanos</a>
-</section><!--Finaliza la seccion de conctactos-->
-
-<section>
-    <h2>Testimonios</h2>
-    <blockquote>
-        Excelente atencion al cliente, el personal es muy profesional en su trabajo, fui bien atendido y me ayudaron con la compra de una propiedad.
-    </blockquote>
-    <p>- David Bratt</p>
-</section><!---Finaliza la seccion de Testimonios-->
+    <!-- ESTA ETIQUETA VENDRÍA SIENDO DONDE COLOCAS EL CUERPO DE LO VAYAS A HACER SIN NECESIDAD DE CREAR OTRO DOCUMENTO HTML y asi estructuras todo por secciones usando la etiqueta section revisa los links para que entiendas -->
+    <!-- DESCOMENTA ESTO  
+    <main>
+        <section class="contenedor">
+            <div class="Nosotros" id="Nosotros">
+                <!- Contenido de nosotros ->
+                <h1 class>Nosotros</h1> 
+                <p class="texto_informativo">Somos una empresa de bienes inmuebles, dedicadas a las
+                    ventas exclusivas de propiedades, tenemos mas de 5 años de experiencia
+                    en el mercado satisfaciendo las necesidades de nuestros clientes 
+                    y trabajando en conjunto con otras compañías.
+            
+                    Contamos con personal profesional y con un excelente servicio de
+                    atención al cliente a disposición para ayudarlos con cualquier duda 
+                    o inconveniente. 
+                </div>
+        </section>
+    </main> -->
+    <footer>
+        <p>Todos los derechos reservados 2022 &copy;</p>
+        <p>Programado por David Bratt y Jose Piedra</p>
+    </footer>
 </body>
-
-<footer>
-    <p>Todos los derechos reservados 2022 &copy;</p>
-    <p>Programado por David Bratt y Jose Piedra</p>
-</footer>
-
 <script src="./src/js/app.js"></script>
 </html>
 
